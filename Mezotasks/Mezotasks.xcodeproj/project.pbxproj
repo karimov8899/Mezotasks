@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		558D08BD246C376400251C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D08BC246C376400251C13 /* AppDelegate.swift */; };
+		558D08C1246C376400251C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D08C0246C376400251C13 /* ViewController.swift */; };
+		558D08C4246C376400251C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558D08C2246C376400251C13 /* Main.storyboard */; };
+		558D08C7246C376400251C13 /* Mezotasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 558D08C5246C376400251C13 /* Mezotasks.xcdatamodeld */; };
+		558D08C9246C376500251C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558D08C8246C376500251C13 /* Assets.xcassets */; };
+		558D08CC246C376500251C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558D08CA246C376500251C13 /* LaunchScreen.storyboard */; };
+		558D08D4246C383600251C13 /* ToDoParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D08D3246C383600251C13 /* ToDoParent.swift */; };
+		558D08D8246C383F00251C13 /* ToDoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D08D5246C383F00251C13 /* ToDoVC.swift */; };
+		558D08D9246C383F00251C13 /* ToDoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D08D6246C383F00251C13 /* ToDoItemCell.swift */; };
+		558D08DA246C383F00251C13 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D08D7246C383F00251C13 /* DetailVC.swift */; };
+		558D08DE246C551900251C13 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D08DD246C551900251C13 /* RoundedLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		558D08B9246C376400251C13 /* Mezotasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mezotasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		558D08BC246C376400251C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		558D08C0246C376400251C13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		558D08C3246C376400251C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		558D08C6246C376400251C13 /* Mezotasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mezotasks.xcdatamodel; sourceTree = "<group>"; };
+		558D08C8246C376500251C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		558D08CB246C376500251C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		558D08CD246C376500251C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558D08D3246C383600251C13 /* ToDoParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoParent.swift; sourceTree = "<group>"; };
+		558D08D5246C383F00251C13 /* ToDoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoVC.swift; sourceTree = "<group>"; };
+		558D08D6246C383F00251C13 /* ToDoItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemCell.swift; sourceTree = "<group>"; };
+		558D08D7246C383F00251C13 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		558D08DD246C551900251C13 /* RoundedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558D08B6246C376400251C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558D08B0246C376400251C13 = {
+			isa = PBXGroup;
+			children = (
+				558D08BB246C376400251C13 /* Mezotasks */,
+				558D08BA246C376400251C13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558D08BA246C376400251C13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558D08B9246C376400251C13 /* Mezotasks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558D08BB246C376400251C13 /* Mezotasks */ = {
+			isa = PBXGroup;
+			children = (
+				558D08BC246C376400251C13 /* AppDelegate.swift */,
+				558D08C0246C376400251C13 /* ViewController.swift */,
+				558D08D3246C383600251C13 /* ToDoParent.swift */,
+				558D08D5246C383F00251C13 /* ToDoVC.swift */,
+				558D08D6246C383F00251C13 /* ToDoItemCell.swift */,
+				558D08D7246C383F00251C13 /* DetailVC.swift */,
+				558D08DD246C551900251C13 /* RoundedLabel.swift */,
+				558D08C2246C376400251C13 /* Main.storyboard */,
+				558D08C8246C376500251C13 /* Assets.xcassets */,
+				558D08CA246C376500251C13 /* LaunchScreen.storyboard */,
+				558D08CD246C376500251C13 /* Info.plist */,
+				558D08C5246C376400251C13 /* Mezotasks.xcdatamodeld */,
+			);
+			path = Mezotasks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558D08B8246C376400251C13 /* Mezotasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558D08D0246C376500251C13 /* Build configuration list for PBXNativeTarget "Mezotasks" */;
+			buildPhases = (
+				558D08B5246C376400251C13 /* Sources */,
+				558D08B6246C376400251C13 /* Frameworks */,
+				558D08B7246C376400251C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mezotasks;
+			productName = Mezotasks;
+			productReference = 558D08B9246C376400251C13 /* Mezotasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558D08B1246C376400251C13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = DoItMem;
+				TargetAttributes = {
+					558D08B8246C376400251C13 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 558D08B4246C376400251C13 /* Build configuration list for PBXProject "Mezotasks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 558D08B0246C376400251C13;
+			productRefGroup = 558D08BA246C376400251C13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558D08B8246C376400251C13 /* Mezotasks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558D08B7246C376400251C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558D08CC246C376500251C13 /* LaunchScreen.storyboard in Resources */,
+				558D08C9246C376500251C13 /* Assets.xcassets in Resources */,
+				558D08C4246C376400251C13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558D08B5246C376400251C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558D08D9246C383F00251C13 /* ToDoItemCell.swift in Sources */,
+				558D08C1246C376400251C13 /* ViewController.swift in Sources */,
+				558D08BD246C376400251C13 /* AppDelegate.swift in Sources */,
+				558D08C7246C376400251C13 /* Mezotasks.xcdatamodeld in Sources */,
+				558D08D8246C383F00251C13 /* ToDoVC.swift in Sources */,
+				558D08D4246C383600251C13 /* ToDoParent.swift in Sources */,
+				558D08DE246C551900251C13 /* RoundedLabel.swift in Sources */,
+				558D08DA246C383F00251C13 /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		558D08C2246C376400251C13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558D08C3246C376400251C13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		558D08CA246C376500251C13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558D08CB246C376500251C13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		558D08CE246C376500251C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		558D08CF246C376500251C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558D08D1246C376500251C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS428264P3;
+				INFOPLIST_FILE = Mezotasks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sign.Mezotasks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		558D08D2246C376500251C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS428264P3;
+				INFOPLIST_FILE = Mezotasks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sign.Mezotasks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558D08B4246C376400251C13 /* Build configuration list for PBXProject "Mezotasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558D08CE246C376500251C13 /* Debug */,
+				558D08CF246C376500251C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558D08D0246C376500251C13 /* Build configuration list for PBXNativeTarget "Mezotasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558D08D1246C376500251C13 /* Debug */,
+				558D08D2246C376500251C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		558D08C5246C376400251C13 /* Mezotasks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				558D08C6246C376400251C13 /* Mezotasks.xcdatamodel */,
+			);
+			currentVersion = 558D08C6246C376400251C13 /* Mezotasks.xcdatamodel */;
+			path = Mezotasks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 558D08B1246C376400251C13 /* Project object */;
+}
